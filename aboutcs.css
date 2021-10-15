@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    border: black solid 2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:black
+}
+.menu{
+    font-size: 1.3em;
+    margin: 20px;
+    
+
+    /* border: red solid 2px; */
+    padding: 10px;
+    
+}
+.link:hover{
+    /* color:white; */
+    background-color: lime;
+}
+.link:link{
+    color: lime;
+    /* background-color:lightgreen; */
+    padding: 5px 5px 5px 5px;
+}
+.icon{
+    position: absolute;
+    right: 94%;
+    top: 5%;
+    
+    
+
+}
+.icon img{
+    height: 60px;
+    width: 60px;
+}
+#menu4{
+    padding-right: 40px;
+}
+#menu5{
+    position: absolute;
+    bottom: 10px;
+    margin-right: 83%;
+    font-family: 'Festive', cursive;
+    font-size: 2em;
+}
+.contact{
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(3, 70, 3);
+}
+.details{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 25px;
+    font-size: 1.2em;
+}
+.history{
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(3, 70, 3);
+}
+.details1{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 82%;
+    font-size: 1.2em;
+}
+.gm{
+    position: absolute;
+    margin-left: 28px;
+    margin-top:200px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(3, 70, 3);
+}
+.details3{
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 25px;
+    font-size: 1.2em;
+}
+.achievment{
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 200px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(3, 70, 3);
+}
+.details4{
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 81%;
+    font-size: 1.2em;
+}
+.vijay{
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 20px;
+    border: black solid 10px;
+}
+.dat{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 612px;
+    font-size: 1.6em;
+    font-weight: bold;
+}

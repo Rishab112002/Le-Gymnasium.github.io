@@ -1,0 +1,253 @@
+/* .heading{
+    height: 100px;
+    width: 300px;
+    border: black solid 2px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    background-color: darkblue;
+    color: cyan;
+    position: relative;
+    left: 640px;
+    
+} */
+body{
+    background-color:blanchedalmond;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    border: black solid 2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:black
+}
+.menu{
+    font-size: 1.3em;
+    margin: 20px;
+    
+
+    /* border: red solid 2px; */
+    padding: 10px;
+    
+}
+.link:hover{
+    /* color:white; */
+    background-color: lime;
+}
+.link:link{
+    color: lime;
+    /* background-color:lightgreen; */
+    padding: 5px 5px 5px 5px;
+}
+.icon{
+    position: absolute;
+    right: 94%;
+    top: 5%;
+    
+    
+
+}
+.icon img{
+    height: 60px;
+    width: 60px;
+}
+#menu4{
+    padding-right: 40px;
+}
+#menu5{
+    position: absolute;
+    bottom: 10px;
+    margin-right: 83%;
+    font-family: 'Festive', cursive;
+    font-size: 2em;
+}
+.rad{
+    position: relative;
+    top: 10px;
+    left: 21px;
+}
+
+/* .back{
+    opacity: 0.6;
+} */
+.quote{
+    position: absolute;
+    left: 100px; 
+    top: 30px;
+    margin-top: 2%;
+    font-size: 3em;
+    font-weight: 1000;
+    color: rgb(178, 32, 32); 
+}
+.inside{
+    margin-top: 0.1%;
+    min-height: 525px;
+    width: 98%
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    background-image: url("chase-kinney-FMQBLyhD2HU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding bottom: 200px;
+    /* border-radius: 13px; */
+    box-shadow: 5px 10px 15px black;
+    opacity: 0.87;
+
+}
+.aling{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 70%;
+    left: 385px;
+    padding:  8px 8px 8px 8px;
+    border: white solid 4px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.8em;
+    font-weight: bolder;
+    margin-left: 10px;
+    color:rgb(89, 231, 46);
+   
+
+}
+/* .course{
+    margin-top: 160px;
+    margin-left: 60px;
+} */
+.lki{
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+
+    top: 43%;
+    left: 15px;
+    /* background-color: rgb(207, 202, 202); */
+    /* border: white solid 5px; */
+    border-radius: 20px;
+    width: 16.5%;
+    height: 350px;
+    padding-top: 1.5%;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* font-weight: bolder; */
+    font-size: 1.1em;
+    box-shadow: ;
+    
+    
+}
+.pack{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1%;
+    right:  81%;
+   
+    margin-top: 13%;
+    margin-left: 5.7%;
+    font-size: 2.1em;
+    width: 180px;
+    background-color: rgb(15, 65, 65);
+    border-radius: 20px;
+    padding-left: 60px;
+    min-height: 40px;
+    /* box-shadow:5px 10px 15px limegreen */
+}
+.lki:visited{
+    color:cyan;
+}
+
+.lki:link{
+    color: rgb(79, 112, 112);
+}
+.lki:hover{
+    color: rgb(12, 107, 12);
+}
+.lki{
+    cursor: pointer;
+}
+.buttn{
+    background-color: darkblue;
+    border-radius:30px;
+    height: 43px;
+    padding-left: 30px;
+    padding-bottom:1px;
+    cursor: pointer;
+    box-shadow:5px 10px 15px limegreen ;
+}  
+.read{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 455px;
+    left: 440px;
+    /* border: black solid 2px; */
+    background:green;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-decoration: none;
+    /* box-shadow:5px 10px 15px darkgreen; */
+}
+
+.read:hover {
+    background:rgb(7, 59, 7);
+  }
+  .shadow{
+    display: flex;
+    height: 40px;
+    width: 120px;
+    flex-direction: column;
+    position: absolute;
+    padding-bottom: 3px;
+    bottom: 446px;
+    left: 444px;
+    background-color:rgb(162, 240, 162);
+  }
+  .phn{
+      background-color: green;
+      height: 22px;
+      padding: 10px 10px 10px 10px;
+      position: absolute;
+      bottom: 652px;
+      left: 1300px
+  }
+  .num{
+    background-color: rgb(140, 192, 140);
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    bottom: 652px;
+    left: 1335px
+  }
+  .jhoot{
+      padding: 5px 10px 5px 5px;
+      margin-top:3%;
+      margin-left: 31.9%;
+      border: white solid 2px;
+      box-shadow:5px 10px 11px black;
+      width:550px
+      
+  }
+  .medal{
+      position: relative;
+    margin-left: 64%;
+    bottom: 40.9px;
+  }
+  
+  
+

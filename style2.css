@@ -1,0 +1,203 @@
+/* .heading{
+    height: 100px;
+    width: 300px;
+    border: black solid 2px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    background-color: darkblue;
+    color: cyan;
+    position: relative;
+    left: 640px;
+    
+} */
+body{
+    background-color:blanchedalmond;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    border: black solid 2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:black
+}
+.menu{
+    font-size: 1.3em;
+    margin: 20px;
+    
+
+    /* border: red solid 2px; */
+    padding: 10px;
+    
+}
+.link:hover{
+    /* color:white; */
+    background-color: lime;
+}
+.link:link{
+    color: lime;
+    /* background-color:lightgreen; */
+    padding: 5px 5px 5px 5px;
+}
+.icon{
+    position: absolute;
+    right: 94%;
+    top: 5%;
+    
+    
+
+}
+.icon img{
+    height: 60px;
+    width: 60px;
+}
+#menu4{
+    padding-right: 40px;
+}
+#menu5{
+    position: absolute;
+    bottom: 10px;
+    margin-right: 83%;
+    font-family: 'Festive', cursive;
+    font-size: 2em;
+}
+.rad{
+    position: relative;
+    top: 10px;
+    left: 21px;
+}
+
+/* .back{
+    opacity: 0.6;
+} */
+.quote{
+    position: absolute;
+    left: 100px; 
+    top: 30px;
+    margin-top: 2%;
+    font-size: 3em;
+    font-weight: 1000;
+    color: rgb(178, 32, 32); 
+}
+.inside{
+    margin-top: 0.1%;
+    min-height: 550px;
+    width: 98%
+    display: flex;
+    /* background-color: burlywood; */
+    
+    flex-direction: column;
+    background-image: url("gym.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+    padding-top: 10px;
+    opacity: 0.5;
+    /* border-radius: 13px; */
+    box-shadow: 5px 10px 15px black;
+    /* opacity: 0.87; */
+
+}
+.aling{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 74%;
+    color: rgb(11, 167, 128);
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+    margin-left: 10px;
+
+}
+/* .course{
+    margin-top: 160px;
+    margin-left: 60px;
+} */
+.lki{
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+
+    top: 8%;
+    left: 1330px;
+    /* background-color: rgb(207, 202, 202); */
+    /* border: white solid 5px; */
+    border-radius: 20px;
+    width: 16.5%;
+    height: 350px;
+    padding-top: 1.5%;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* font-weight: bolder; */
+    font-size: 1.1em;
+    
+    
+    
+}
+.pack{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1%;
+    right:  81%;
+   
+    margin-top: 13%;
+    margin-left: 5.7%;
+    font-size: 2.1em;
+    width: 180px;
+    background-color: rgb(15, 65, 65);
+    border-radius: 20px;
+    padding-left: 60px;
+    min-height: 40px;
+    /* box-shadow:5px 10px 15px limegreen */
+}
+.lki:visited{
+    color:cyan;
+}
+
+.lki:link{
+    color: rgb(79, 112, 112);
+}
+.lki:hover{
+    color: rgb(12, 107, 12);
+}
+.lki{
+    cursor: pointer;
+}
+.buttn{
+    background-color: darkblue;
+    border-radius:30px;
+    height: 43px;
+    padding-left: 30px;
+    padding-bottom:1px;
+    cursor: pointer;
+    box-shadow:5px 10px 15px black ;
+}  
+.champ{
+    padding: 15px 10px 15px 10px;
+    margin-top:2%;
+    margin-left: 31%;
+    border: white solid 2px;
+    width: 690px;
+    box-shadow:5px 10px 16px black;
+  }
+  .sat img{
+      position: absolute;
+      top: 83.6%;
+      left: 23%;
+      border: black solid 3px;
+      border-radius: 90px;
+  }
